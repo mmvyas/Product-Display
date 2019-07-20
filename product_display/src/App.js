@@ -35,7 +35,7 @@ export default class App extends Component {
         <div className="App-sidebar">
           <Filter type={type.type} onFilter={this.handleChange}/>
         </div>
-        <div className="App-content">
+        <div className="App-content-products">
           <Products products={products.products} filter={this.state.selectedCategory}/>
         </div>
       </div>

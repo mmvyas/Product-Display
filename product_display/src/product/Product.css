@@ -2,23 +2,35 @@
   width: 25%;
   padding: 0 4%;
   float: left;
-  height: 300px;
+  height: 250px;
 }
 .product-title {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 17px;
+  font-size: 15px;
   margin: 0px;
+  color: rgba(0, 0, 0, 0.54); 
+  font-family: 'Open Sans', sans-serif;
+  
+}
 
+.products-container{
+  padding-top: 30px;
 }
 
 .sale{
-  float: right;
-  background-color: bisque;
-  padding: 3px;
+  
+  background-color: #fff;
+  color: #C3185A;
+  border-radius: 3px;
+  
+  font-weight: bold;
 }
 
 .product-price {
   margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.54); 
+  font-family: 'Open Sans', sans-serif;
 }
 
 .product-img {
@@ -26,7 +38,7 @@
   margin: auto;
 }
 .product-img > img {
-  width: 100%;
+  width: 80%;
 }
 
 @media only screen and (max-width: 1200px) {

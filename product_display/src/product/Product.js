@@ -37,13 +37,13 @@ export default class Product extends Component {
       
       <div className="product" data-category={this.getCategory()}>
         <div className="product-img">
-          <img className="" src={this.getImgSrc()} alt={this.getName()}></img>
+          <img className="" src={this.getImgSrc()} alt={this.getName()} ></img>
         </div>
         
         <h4 className="product-title">{this.getName()}</h4>
         <p className="product-price">{this.getPrice()}</p>
         <div className="sale">
-        {this.props.product.isSale ? (<div>On Sale</div>) : ("")}</div>
+        {this.props.product.isSale ? (<div>On Sale</div>) : (null)}</div>
       </div>
     );
   }
