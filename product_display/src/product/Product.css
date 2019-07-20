@@ -2,12 +2,19 @@
   width: 25%;
   padding: 0 4%;
   float: left;
+  height: 300px;
 }
 .product-title {
   font-family: 'Cormorant Garamond', serif;
   font-size: 17px;
   margin: 0px;
 
+}
+
+.sale{
+  float: right;
+  background-color: bisque;
+  padding: 3px;
 }
 
 .product-price {

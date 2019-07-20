@@ -18,6 +18,10 @@ export default class Product extends Component {
     return this.props.product.productImage;
   }
 
+  getIsSale(){
+    return this.props.product.isSale;
+  }
+
   getCategory(){
     return this.props.product.type;
   }
@@ -26,13 +30,20 @@ export default class Product extends Component {
     if(!this.props.show){
       return null;
     }
+    
+    
+   
     return (
+      
       <div className="product" data-category={this.getCategory()}>
         <div className="product-img">
           <img className="" src={this.getImgSrc()} alt={this.getName()}></img>
         </div>
+        
         <h4 className="product-title">{this.getName()}</h4>
         <p className="product-price">{this.getPrice()}</p>
+        <div className="sale">
+        {this.props.product.isSale ? (<div>On Sale</div>) : ("")}</div>
       </div>
     );
   }
