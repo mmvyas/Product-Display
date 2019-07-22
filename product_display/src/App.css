@@ -1,7 +1,6 @@
 .App {
-  
   margin: auto;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 13px;
   background-color: #eee;
   padding-bottom: 50px;
@@ -9,7 +8,7 @@
 
 .Page-header {
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 30px;
   margin: 0 0 20px 0;
   color: #fff;
@@ -27,21 +26,23 @@
   padding-bottom: 10px;
   justify-content: center;
   background-color: white;
-  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
 }
 
-.App-content{
+.App-content {
   border-radius: 4px;
-  float: right;  
+  float: right;
   margin-bottom: 50px;
   background-color: #006dae;
   padding-top: 50px;
-  color:white;
+  color: white;
   border-radius: 4px;
-  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
 }
 
-.Dropdown{
+.Dropdown {
   display: flex;
   justify-content: center;
   padding-bottom: 50px;
@@ -55,19 +56,19 @@
   background-color: #fff;
   margin-top: 0px !important;
   text-align: center;
-  float:left;
+  float: left;
   margin-top: 100px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   border-radius: 4px;
-  color: rgba(0, 0, 0, 0.54); 
+  color: rgba(0, 0, 0, 0.54);
   font-size: medium;
-  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
-  
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
 }
 
-.category-item{
+.category-item {
   font-size: small;
 }
 
@@ -95,9 +96,7 @@
   .Page-header {
     width: 100%;
   }
-  .App-content-products{
+  .App-content-products {
     min-width: 100%;
   }
-    
-  
 }

@@ -7,21 +7,19 @@
 .product-title {
   font-size: 15px;
   margin: 0px;
-  color: rgba(0, 0, 0, 0.54); 
-  font-family: 'Open Sans', sans-serif;
-  
+  color: rgba(0, 0, 0, 0.54);
+  font-family: "Open Sans", sans-serif;
 }
 
-.products-container{
+.products-container {
   padding-top: 30px;
 }
 
-.sale{
-  
+.sale {
   background-color: #fff;
-  color: #C3185A;
+  color: #c3185a;
   border-radius: 3px;
-  
+
   font-weight: bold;
 }
 
@@ -29,8 +27,8 @@
   margin-top: 0px;
   margin-bottom: 0px;
   font-size: 12px;
-  color: rgba(0, 0, 0, 0.54); 
-  font-family: 'Open Sans', sans-serif;
+  color: rgba(0, 0, 0, 0.54);
+  font-family: "Open Sans", sans-serif;
 }
 
 .product-img {
