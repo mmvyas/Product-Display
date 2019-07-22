@@ -1,10 +1,26 @@
+
 import React, { Component, Fragment } from 'react';
+import Basic from './basic';
+import Enzyme, { shallow, render, mount } from 'enzyme';
+import toJson from 'enzyme-to-json';
+import Adapter from 'enzyme-adapter-react-16';
 import './App.css';
 //Import of json information to build page
 import products from './products.json';
 
 //Import of custom Components
 import Products from './products/Products';
+
+Enzyme.configure({ adapter: new Adapter() });
+
+describe('<Products />', () => {
+  it('calls componentDidMount', () => {
+    
+    const wrapper = mount(<Products />);
+    expect(Products.prototype.componentDidMount).to.have.property('callCount', 1);
+  });
+});
+
 
 export default class App extends Component {
   constructor(props){
@@ -44,14 +60,24 @@ export default class App extends Component {
     this.setState({ selectedCategory: filter.target.value });
   };
 
-  
+ 
 
   render() {
+    
     const { options, value } = this.state;
     let dStyle={
       color: 'rgba(0, 0, 0, 0.54)',
       fontSize: '1em'
     };
+
+    describe('<Products />', () => {
+    it('renders correctly enzyme', () => {
+      const wrapper = shallow(<Basic />)
+    
+      expect(toJson(wrapper)).toMatchSnapshot();
+    });
+  });
+
     return (
       
       <div className="App">

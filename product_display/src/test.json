@@ -1,31 +1,26 @@
 {
   "type": [{
-    "name": "White Wine",
+    "name": "Wine",
     "products": [
       {
-        "name": "Chenin Blanc",
-        "price": 89,
-        "img": "./public/img1.jpg"
+        "name": "Aquila Spark SauvB Bottle",
+        "price": "$25.99",
+        "img": "/images/Product_5.jpeg"
       },
       {
-        "name": "Viognier",
-        "price": 125,
-        "img": "./public/img1.jpg"
-      },
-      {
-        "name": "Chardonnay",
-        "price": 200,
-        "img": "./public/img1.jpg"
+        "name": "Bernadino Spumante Bottle",
+        "price": "$29.99",
+        "img": "/images/Product_6.jpeg"
       }
     ]
     },
     {
-      "name": "Rosè",
+      "name": "Cider",
       "products": [
         {
-          "name": "Mourvèdre Rosè",
-          "price": 105,
-          "img": "./public/img1.jpg"
+          "name": "Scrumpy RBerry 6x1.25L",
+          "price": "$49.99",
+          "img": "/images/Product_8.jpeg"
         }
       ]
     }]
