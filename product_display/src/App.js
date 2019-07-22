@@ -27,8 +27,7 @@ export default class App extends Component {
       selectedCategory: props.type,
       options: [
         {
-          name: "All",
-          value: ""
+          name: "All"
         },
 
         {
